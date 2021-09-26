@@ -3,7 +3,7 @@
 Clone the repository:
 
 ```bash
-git clone 
+git clone https://github.com/Lcaraballoc/saatva.git
 ```
 
 Run this command inside the cloned folder to install the project dependencies:
