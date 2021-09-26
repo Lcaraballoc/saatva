@@ -1,0 +1,12 @@
+.selection{
+    /* width: 100%; */
+    flex: 1;
+    min-width: 450px;
+    &__title{
+        font-family: 'Source Serif Pro', serif;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 0;
+    }
+}
+

@@ -1,0 +1,40 @@
+.header{
+    border-bottom: 1px solid #dcdcdb;
+    
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1100px;
+        min-height: 64px;
+        margin: 0 auto;
+    }
+
+    &__logo{
+        width: 107px;
+        fill: #c19678;
+    }
+
+    &__rightMenu{
+        position: relative;
+    }
+
+    &__cart{
+        fill: #6b6257;
+    }
+
+    &__cartCounter{
+        position: absolute;
+        display: flex;
+        bottom: 16px;
+        left: 16px;
+        justify-content: center;
+        align-items: center;
+        width: 18px;
+        height: 18px;
+        font-size: 10px;
+        border-radius: 50%;
+        background-color: #c19678;
+        color: white;
+    }
+}
