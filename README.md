@@ -1,18 +1,28 @@
-# Getting Started with Create React App
+# To install and run the App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone the repository:
 
-## Available Scripts
+```bash
+git clone 
+```
 
-In the project directory, you can run:
+Run this command inside the cloned folder to install the project dependencies:
 
-### `npm start`
+```bash
+npm install
+```
 
-Runs the app in the development mode.\
+Run the app in development mode with:
+
+```bash
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+
+
+# Other Available Scripts
 
 ### `npm test`
 

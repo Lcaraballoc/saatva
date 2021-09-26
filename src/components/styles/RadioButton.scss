@@ -1,4 +1,4 @@
-.option{
+.radioButton{
     width: 100%;
     padding: 12px 16px;
     color: #6b6257;
@@ -9,7 +9,7 @@
         background-color: #f0efee;
     }
     &--selected{
-        @extend .option;
+        @extend .radioButton;
         background-color: #a6a19a;
         color: #FFFFFF;
         &:hover{

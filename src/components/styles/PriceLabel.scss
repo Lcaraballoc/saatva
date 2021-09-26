@@ -1,0 +1,19 @@
+.priceContainer{
+    margin-top: 25px;
+
+    .ratingLabel{
+        display: flex;
+        align-items: center;
+        gap: 8px;;
+    }
+
+    .priceLabel{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+        &__title{
+            font-weight: 700;
+        }
+    }
+}
+

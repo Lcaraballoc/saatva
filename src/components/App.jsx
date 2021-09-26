@@ -1,6 +1,5 @@
-import './styles/App.css';
-import Header from '../components/Header'
-import Mattress from '../components/Mattress'
+import Header from './Header'
+import MattressView from './MattressView'
 import AppContext from '../context/AppContext';
 import useInitialState from '../useInitialState';
 
@@ -9,7 +8,7 @@ function App() {
   return (
     <AppContext.Provider value={initialState}>
       <Header />
-      <Mattress />
+      <MattressView />
     </AppContext.Provider>
   )
 }
